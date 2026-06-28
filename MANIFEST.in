@@ -1,0 +1,3 @@
+include MANIFEST.in
+recursive-include ucm_custom_app/templates *
+recursive-include ucm_custom_app/public *
