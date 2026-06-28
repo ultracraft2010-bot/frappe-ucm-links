@@ -1,0 +1,18 @@
+[project]
+name = "ucm_custom_app"
+authors = [
+    {name = "Ultra Craft", email = "ultracraft2010@gmail.com"}
+]
+description = "UCM Custom App for Frappe Dashboard"
+requires-python = ">=3.10"
+readme = "README.md"
+dynamic = ["version"]
+
+[build-system]
+requires = ["flit_core >=3.4,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.module]
+name = "ucm_custom_app"
+
+[tool.bench.dev-dependencies]
